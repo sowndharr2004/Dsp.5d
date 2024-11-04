@@ -1,0 +1,25 @@
+cle:
+
+clear all;
+
+close all;
+
+N=input('enter the order of filter');
+
+wcl-(pi/4); wc * 2 = (3pi) / 4 ; a = (N - 1) / 2 for n = 1 / N if((n - 1) = a) hd(n)-1-(wcl+pi-wc2)/pi; else lud(n)=(sin(wc 1^ * (n-1-a))-sin(wc2^ * (n-1-a)))/(pi^ * (n * 1 - a) ) end; w(n)=0.5+(0.5^ * cos(2^ * pi^ * (n - 1 - a) / (N - 1) )); end; a = 0/0.01 pi;
+
+hw.hd;
+
+b-freqz(h,1,a);
+
+mag=20^ * log(abs(b)) ;
+
+plot(a/pi,mag);
+
+grid;
+
+xlabel('normalized frequency omega^pi');
+
+ylabel('magnitude in db');
+
+title('bandstop filter');
